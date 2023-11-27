@@ -43,7 +43,7 @@ pip install torch==2.0.0 torchvision==0.15.1 torchaudio==2.0.1 --index-url https
 git clone https://github.com/NVIDIA/apex
 
 #### If Error : ModuleNotFoundError: No module named 'packaging’ occurs,
-#### Follow instruction in https://stackoverflow.com/questions/76708173/error-modulenotfounderror-no-module-named-packaging
+#### Follow instruction in "https://stackoverflow.com/questions/76708173/error-modulenotfounderror-no-module-named-packaging"
 #### Add `sys.path.append('/home/solee0022/anaconda3/envs/cv/lib/python3.8/site-packages/')`
 pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./apex
 

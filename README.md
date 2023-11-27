@@ -27,11 +27,25 @@ python -m train --ds CUB --model vit_small_patch16_224 --num_samples 9 --lr 3e-5
 ```
 
 ### Setup
+# solee
+- python: 3.8.18
+- cuda: cuda/11.8
+- torch: 2.0.0+cu118
+  
 ```
 pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
 
+or
+
+# solee
+pip install torch==2.0.0 torchvision==0.15.1 torchaudio==2.0.1 --index-url https://download.pytorch.org/whl/cu118
+
 git clone https://github.com/NVIDIA/apex
 
+# apex
+# If Error : ModuleNotFoundError: No module named 'packaging’ occurs,
+# Follow instruction in https://stackoverflow.com/questions/76708173/error-modulenotfounderror-no-module-named-packaging
+# Add `sys.path.append('/home/solee0022/anaconda3/envs/cv/lib/python3.8/site-packages/')`
 pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./apex
 
 pip install tqdm wandb timm typed-argument-parser pytorch_metric_learning

@@ -19,21 +19,7 @@ python -m train --help  # single GPU
 
 ### Configs
 ```
-python -m train --ds CUB --model vit_small_patch16_224 --num_samples 9 --lr 3e-5 --ep 50 --eval_ep "[50]" --resize 256
-python -m train --ds CUB --model dino_vits16 --num_samples 9 --lr 1e-5 --ep 50 --eval_ep "[50]" --resize 256
-python -m train --ds CUB --model deit_small_distilled_patch16_224 --num_samples 9 --lr 3e-5 --ep 50 --eval_ep "[50]" --resize 256
-
-python -m train --ds Cars --model vit_small_patch16_224 --num_samples 9 --bs 882 --lr 3e-5 --ep 300 --eval_ep "[300]"
-python -m train --ds Cars --model dino_vits16 --num_samples 9 --bs 882 --lr 1e-5 --ep 300 --eval_ep "[300]"
-python -m train --ds Cars --model deit_small_distilled_patch16_224 --num_samples 9 --bs 882 --lr 3e-5 --ep 300 --eval_ep "[300]"
-
-python -m train --ds SOP --model vit_small_patch16_224 --lr 3e-5 --ep 200 --eval_ep "[200]"
-python -m train --ds SOP --model dino_vits16 --lr 1e-5 --ep 200 --eval_ep "[200]"
-python -m train --ds SOP --model deit_small_distilled_patch16_224 --lr 3e-5 --ep 200 --eval_ep "[200]"
-
-python -m train --ds Inshop --model vit_small_patch16_224 --lr 3e-5 --ep 400 --eval_ep "[400]"
-python -m train --ds Inshop --model dino_vits16 --lr 1e-5 --ep 400 --eval_ep "[400]"
-python -m train --ds Inshop --model deit_small_distilled_patch16_224 --lr 3e-5 --ep 400 --eval_ep "[400]"
+python -m train --ds CUB --model vit_small_patch16_224 --num_samples 9 --lr 3e-5 --ep 3 --eval_ep "[10]" --resize 256
 
 # add --hyp_c 0 --t 0.1 for sphere version
 # use --clip_r 0 to disable clipping

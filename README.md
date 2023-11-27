@@ -1,15 +1,6 @@
 ## Hyperbolic Vision Transformers: Combining Improvements in Metric Learning
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/hyperbolic-vision-transformers-combining/metric-learning-on-cars196)](https://paperswithcode.com/sota/metric-learning-on-cars196?p=hyperbolic-vision-transformers-combining)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/hyperbolic-vision-transformers-combining/metric-learning-on-cub-200-2011-4)](https://paperswithcode.com/sota/metric-learning-on-cub-200-2011-4?p=hyperbolic-vision-transformers-combining)
-
-**CVPR 2022** &nbsp;&nbsp;
-[arxiv.org/abs/2203.10833](https://arxiv.org/abs/2203.10833) &nbsp;&nbsp;
-[Papers With Code](https://paperswithcode.com/paper/hyperbolic-vision-transformers-combining)
-
-![scheme](https://github.com/htdt/hyp_metric/blob/master/scheme.png?raw=true)
-
-![results](https://github.com/htdt/hyp_metric/blob/master/results.png?raw=true)
+![image](https://github.com/solee0022/cv_hype/assets/126051717/1c266903-3534-4373-9a24-4ea8c2db7834)
 
 
 ### Code includes 

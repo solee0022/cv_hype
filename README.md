@@ -1,6 +1,15 @@
 ## Hyperbolic Vision Transformers: Combining Improvements in Metric Learning
 
-![image](https://github.com/solee0022/cv_hype/assets/126051717/1c266903-3534-4373-9a24-4ea8c2db7834)
+Compare performances below 4.
+1. Bird1 – Bird2 => Cosine
+2. Bird1 – Bird2 => Hyperbolic
+3. Bird1 – Bird1 wing => Hyperbolic
+4. Bird1 – Bird2 wing => Hyperbolic
+
+
+<img width="800" alt="image" src="https://github.com/solee0022/cv_hype/assets/126051717/4a68d8ed-26f1-4081-93fc-db0e2881992f">
+
+
 
 
 ### Code includes 

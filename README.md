@@ -28,7 +28,7 @@ python -m train --help  # single GPU
 
 ### Configs
 ```
-python -m train --ds CUB --model dino_vits16 --num_samples 9 --lr 3e-5 --ep 3 --eval_ep "[10]" --resize 256
+python -m train --ds CUB --model vit_small_patch16_224 --num_samples 8 --lr 3e-5 --ep 3 --eval_ep "[10]" --resize 256
 
 # add --hyp_c 0 --t 0.1 for sphere version
 # use --clip_r 0 to disable clipping
